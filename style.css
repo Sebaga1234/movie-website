@@ -2,8 +2,7 @@
     margin: 0;
 }
 
-
-@media only screen and (max-width: 600px){
+@media screen and (min-width: 480px){
 body{
     font-family:'Roboto', sans-serif;
 }
@@ -12,7 +11,7 @@ body{
 .navbar{
     width: 100%;
     height: 50px;
-    background-color: black;
+    background-color: #151515;
     position: fixed;
 }
 
@@ -97,7 +96,7 @@ body{
 .sidebar{
     width: 50px;
     height: 100%;
-    background-color: black;
+    background-color: #151515;
     position: fixed;
     top: 0;
     display: flex;
@@ -113,14 +112,15 @@ body{
 }
 
 .container{
-    background-color: #151515;
-    height: calc(200vh - 50px);
+    background-color: black;
+    height: calc(250vh - 50px);
     width: calc(230vh - 50px);
     color:white;
 }
 
 .content-container{
     margin-left: 50px;
+    position: calc(300vh - 50vh);
 }
 
 .featured-content{
@@ -226,12 +226,9 @@ body{
     transition: 1s all ease-in-out;
 }
 
-.arrow{
-    font-size: 100px;
-    position: static;
-    top: 90px;
-    right: 0;
-    opacity: .5;
-    color: lightgray;
-    cursor: pointer;
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color: tomato;
+    position: fixed;
 }
